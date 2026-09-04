@@ -1,0 +1,271 @@
+/* ========================================
+   FUNDO GERAL E FONTE
+======================================== */
+
+body {
+  background-color: #0b0b0b;
+  color: #f5f5f5;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+
+/* ========================================
+   CABEÇALHOS DO TOPO
+======================================== */
+
+body .topo-cliente,
+body .topo-barbeiro,
+body .agendamento-container h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #111111;
+
+  padding: 1rem 1.25rem;
+
+  border-radius: 12px;
+  border: 1px solid #292929;
+
+  margin-bottom: 1.5rem;
+}
+
+
+/* ========================================
+   CARDS E FORMULÁRIOS
+======================================== */
+
+body form,
+body .card,
+body .agendamento-form {
+  background-color: #111111;
+
+  border: 1px solid #292929;
+
+  border-radius: 12px;
+
+  padding: 1.25rem;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ========================================
+   LABELS DOS FORMULÁRIOS
+======================================== */
+
+body label {
+  color: #d4d4d4;
+
+  font-weight: 500;
+}
+
+
+/* ========================================
+   INPUTS E SELECTS
+======================================== */
+
+body .form-control,
+body .form-select {
+  background-color: #e5e5e5;
+
+  border: 1px solid #c7c7c7;
+
+  color: #1a1a1a;
+
+  border-radius: 8px;
+
+  padding: 0.65rem 0.85rem;
+
+  transition: all 0.2s ease;
+}
+
+
+/* Placeholder */
+
+body .form-control::placeholder {
+  color: #777777;
+
+  opacity: 1;
+}
+
+
+/* Quando o usuário clica no campo */
+
+body .form-control:focus,
+body .form-select:focus {
+  background-color: #f5f5f5;
+
+  border-color: #d4af37;
+
+  color: #111111;
+
+  box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.15);
+
+  outline: none;
+}
+
+
+/* Placeholder no foco */
+
+body .form-control:focus::placeholder {
+  color: #999999;
+}
+
+
+/* ========================================
+   TABELAS
+======================================== */
+
+body .table-responsive {
+  border: 1px solid #292929;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+}
+
+
+body .table {
+  color: #f5f5f5;
+
+  margin: 0;
+}
+
+
+body .table th,
+body .table td {
+  background-color: #111111;
+
+  color: #e5e5e5;
+
+  border-color: #292929;
+
+  padding: 0.875rem 1rem;
+
+  vertical-align: middle;
+}
+
+
+body .table thead th {
+  background-color: #0b0b0b;
+
+  color: #a3a3a3;
+}
+
+
+/* ========================================
+   BOTÕES
+======================================== */
+
+body .btn {
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  border: none;
+}
+
+
+/* Botão principal */
+
+body .btn-primary,
+body .btn-success {
+  background-color: #d4af37;
+
+  color: #111111;
+}
+
+
+body .btn-primary:hover,
+body .btn-success:hover {
+  background-color: #b8962e;
+
+  color: #111111;
+}
+
+
+/* Botão de aviso */
+
+body .btn-warning {
+  background-color: rgba(212, 175, 55, 0.12);
+
+  color: #d4af37;
+}
+
+
+/* Botão excluir */
+
+body .btn-danger {
+  background-color: rgba(239, 68, 68, 0.12);
+
+  color: #f87171;
+}
+
+
+/* Botão secundário */
+
+body .btn-secondary {
+  background-color: #292929;
+
+  color: #d4d4d4;
+}
+
+
+/* ========================================
+   INPUT DESABILITADO
+======================================== */
+
+body .form-control:disabled,
+body .form-select:disabled {
+  background-color: #cfcfcf;
+
+  color: #666666;
+
+  cursor: not-allowed;
+}
+
+
+/* ========================================
+   TEXTO DE AJUDA DOS FORMULÁRIOS
+======================================== */
+
+body .form-text {
+  color: #888888;
+}
+
+
+/* ========================================
+   CHECKBOXES
+======================================== */
+
+body .form-check-input {
+  background-color: #e5e5e5;
+
+  border: 1px solid #999999;
+}
+
+
+body .form-check-input:checked {
+  background-color: #d4af37;
+
+  border-color: #d4af37;
+}
+
+
+body .form-check-input:focus {
+  border-color: #d4af37;
+
+  box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.15);
+}
+
+
+/* ========================================
+   SELECT - OPÇÕES
+======================================== */
+
+body .form-select option {
+  background-color: #f5f5f5;
+
+  color: #111111;
+}
